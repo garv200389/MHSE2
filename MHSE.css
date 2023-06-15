@@ -1,0 +1,100 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 100%;
+        left: 0;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    text-align: left;
+  }
+
+  body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(logo2.png);
+    background-size:1100px;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  #heading{
+    text-align: left;
+    margin-right: 470px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  nav ul li a:link {
+    color: #fff; 
+    text-decoration: none;
+  }
+  
+  nav ul li a:visited {
+    color: #fff; 
+  }
+  
+  nav ul li a:hover {
+    color: #815151;
+  }
+  
+  nav ul li a:active {
+    color: #6cce6c;
+  }
+  
+  .about-me {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 50px;
+  }
+  .image1 img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+  }
+  .connect {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 50px;
+  }
+  .featured{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 50px;
+  }
