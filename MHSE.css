@@ -98,37 +98,18 @@
     padding: 20px;
     font-size: 50px;
   }
-  @media (max-width: 600px) {
-    /* Collapse the navigation menu into a hamburger menu */
-    nav ul {
-      display: none;
-    }
-    
-    nav ul li {
-      display: block;
-    }
-    
-    .dropdown-content {
-      display: none;
-    }
-    
-    /* Show the hamburger menu icon */
-    .menu-icon {
-      display: block;
-      cursor: pointer;
-    }
-    
-    /* Adjust the position and size of the header elements */
+  @media (max-width: 767px) {
     #heading {
+      margin-right: 0;
       text-align: center;
-      font-size: 1.5rem;
-      padding: 10px;
     }
-    
-    /* Adjust the layout of the about-me, featured-posts, and connect sections */
-    .about-me,
-    .featured,
-    .connect {
-      padding: 20px;
+  
+    nav ul {
+      text-align: center;
+    }
+  
+    .image1 img {
+      position: static;
+      margin: 20px auto;
     }
   }
